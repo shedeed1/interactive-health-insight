@@ -10,8 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@tamagui/config": "^1.129.2",
     "react": "19.0.0",
-    "react-native": "0.79.4"
+    "react-native": "0.79.4",
+    "tamagui": "^1.129.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
