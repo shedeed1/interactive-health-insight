@@ -465,7 +465,7 @@ const AnimatedEmoji: React.FC<AnimatedEmojiProps> = ({
 
   return (
     <Animated.View style={[styles.container, animatedStyle]}>
-      <Text fontSize={24}>{emoji}</Text>
+      <Text fontSize={32}>{emoji}</Text>
     </Animated.View>
   );
 };
@@ -475,10 +475,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 8,
-    borderRadius: 20,
+    borderRadius: 30,
     overflow: 'hidden',
-    minWidth: 40,
-    minHeight: 40,
+    width: 60,
+    height: 60,
+    aspectRatio: 1,
   },
 });
 
