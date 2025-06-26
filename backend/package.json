@@ -1,0 +1,18 @@
+{
+  "name": "interactive-health-insight-backend",
+  "version": "1.0.0",
+  "description": "Backend for Interactive Health Insight app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "@fastify/cors": "^8.4.1",
+    "fastify-plugin": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
