@@ -67,7 +67,6 @@ const MoodSection: React.FC<MoodSectionProps> = ({
           <Text fontSize="$4">You selected: {moods[selectedMood].label}</Text>
         ) : null}
 
-        {}
         {moodError && (
           <Animated.View style={errorPopupStyle}>
             <Text
