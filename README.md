@@ -3,7 +3,10 @@
 A React Native application that collects health data (mood, sleep, and notes) and provides personalized suggestions
 using a Fastify backend.
 
-https://github.com/user-attachments/assets/e066cb89-c56f-46ed-ac0f-f26ac9ee2715
+
+
+https://github.com/user-attachments/assets/53d1375a-de38-4a8f-94b3-2f4418b7e045
+
 
 
 ## Project Structure
